@@ -3,19 +3,13 @@ import Drawer from '@mui/material/Drawer';
 import AppBar from '@mui/material/AppBar';
 import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
-import List from '@mui/material/List';
 import Typography from '@mui/material/Typography';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+import Menu from './Menu';
+import logo from '../../assets/logoFootball.png';
 
 const drawerWidth = 240;
 
-export default function Navbar({ content, navigationItems }) {
+export default function Navbar({ content }) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -24,9 +18,11 @@ export default function Navbar({ content, navigationItems }) {
         sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
       >
         <Toolbar>
-          <Typography variant="h6" noWrap component="div">
-            Clipped drawer
-          </Typography>
+          <img
+            src={logo}
+            alt="Logo"
+            style={{ width: '100px', marginLeft: '10px' }}
+          />
         </Toolbar>
       </AppBar>
       <Drawer
@@ -41,7 +37,7 @@ export default function Navbar({ content, navigationItems }) {
         }}
       >
         <Toolbar />
-        {navigationItems}
+        <Menu />
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar />
