@@ -2,150 +2,192 @@
   "hash": "4df4b89d",
   "configHash": "523bae9e",
   "lockfileHash": "1ea7e34a",
-  "browserHash": "5edf19e3",
+  "browserHash": "a82fba28",
   "optimized": {
     "@mui/icons-material/AddBox": {
       "src": "../../node_modules/@mui/icons-material/AddBox.mjs",
       "file": "@mui_icons-material_AddBox.js",
-      "fileHash": "5e72b2dc",
+      "fileHash": "b45115d4",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Backspace": {
+      "src": "../../node_modules/@mui/icons-material/Backspace.mjs",
+      "file": "@mui_icons-material_Backspace.js",
+      "fileHash": "3b6292af",
       "needsInterop": false
     },
     "@mui/icons-material/Dashboard": {
       "src": "../../node_modules/@mui/icons-material/Dashboard.mjs",
       "file": "@mui_icons-material_Dashboard.js",
-      "fileHash": "8a7c7c56",
+      "fileHash": "a0fdca71",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Delete": {
+      "src": "../../node_modules/@mui/icons-material/Delete.mjs",
+      "file": "@mui_icons-material_Delete.js",
+      "fileHash": "ca67d9de",
+      "needsInterop": false
+    },
+    "@mui/icons-material/DeleteSweep": {
+      "src": "../../node_modules/@mui/icons-material/DeleteSweep.mjs",
+      "file": "@mui_icons-material_DeleteSweep.js",
+      "fileHash": "303e6dd6",
       "needsInterop": false
     },
     "@mui/icons-material/Drafts": {
       "src": "../../node_modules/@mui/icons-material/Drafts.mjs",
       "file": "@mui_icons-material_Drafts.js",
-      "fileHash": "2b91b020",
+      "fileHash": "97ecbfc1",
+      "needsInterop": false
+    },
+    "@mui/icons-material/EditDocument": {
+      "src": "../../node_modules/@mui/icons-material/EditDocument.mjs",
+      "file": "@mui_icons-material_EditDocument.js",
+      "fileHash": "6766ff4c",
       "needsInterop": false
     },
     "@mui/icons-material/ExpandLess": {
       "src": "../../node_modules/@mui/icons-material/ExpandLess.mjs",
       "file": "@mui_icons-material_ExpandLess.js",
-      "fileHash": "d4b77bb6",
+      "fileHash": "96e84191",
       "needsInterop": false
     },
     "@mui/icons-material/ExpandMore": {
       "src": "../../node_modules/@mui/icons-material/ExpandMore.mjs",
       "file": "@mui_icons-material_ExpandMore.js",
-      "fileHash": "9da18e89",
+      "fileHash": "8761b677",
       "needsInterop": false
     },
     "@mui/icons-material/Mail": {
       "src": "../../node_modules/@mui/icons-material/Mail.mjs",
       "file": "@mui_icons-material_Mail.js",
-      "fileHash": "7bff15f4",
+      "fileHash": "086772c7",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Menu": {
+      "src": "../../node_modules/@mui/icons-material/Menu.mjs",
+      "file": "@mui_icons-material_Menu.js",
+      "fileHash": "b7a2568a",
+      "needsInterop": false
+    },
+    "@mui/icons-material/MenuOpen": {
+      "src": "../../node_modules/@mui/icons-material/MenuOpen.mjs",
+      "file": "@mui_icons-material_MenuOpen.js",
+      "fileHash": "c9394ff1",
       "needsInterop": false
     },
     "@mui/icons-material/MoveToInbox": {
       "src": "../../node_modules/@mui/icons-material/MoveToInbox.mjs",
       "file": "@mui_icons-material_MoveToInbox.js",
-      "fileHash": "d25d2c62",
+      "fileHash": "aab79c27",
       "needsInterop": false
     },
     "@mui/icons-material/Send": {
       "src": "../../node_modules/@mui/icons-material/Send.mjs",
       "file": "@mui_icons-material_Send.js",
-      "fileHash": "e8b33962",
+      "fileHash": "04b00010",
       "needsInterop": false
     },
     "@mui/icons-material/StarBorder": {
       "src": "../../node_modules/@mui/icons-material/StarBorder.mjs",
       "file": "@mui_icons-material_StarBorder.js",
-      "fileHash": "953aef0b",
+      "fileHash": "93ba49c3",
       "needsInterop": false
     },
     "@mui/material/AppBar": {
       "src": "../../node_modules/@mui/material/AppBar/index.mjs",
       "file": "@mui_material_AppBar.js",
-      "fileHash": "14174a3f",
+      "fileHash": "4f90e496",
       "needsInterop": false
     },
     "@mui/material/Box": {
       "src": "../../node_modules/@mui/material/Box/index.mjs",
       "file": "@mui_material_Box.js",
-      "fileHash": "cdccdc30",
+      "fileHash": "06d881c3",
       "needsInterop": false
     },
     "@mui/material/Collapse": {
       "src": "../../node_modules/@mui/material/Collapse/index.mjs",
       "file": "@mui_material_Collapse.js",
-      "fileHash": "2afa7bac",
+      "fileHash": "4b91a2f2",
       "needsInterop": false
     },
     "@mui/material/CssBaseline": {
       "src": "../../node_modules/@mui/material/CssBaseline/index.mjs",
       "file": "@mui_material_CssBaseline.js",
-      "fileHash": "927933fc",
+      "fileHash": "176f3951",
       "needsInterop": false
     },
     "@mui/material/Divider": {
       "src": "../../node_modules/@mui/material/Divider/index.mjs",
       "file": "@mui_material_Divider.js",
-      "fileHash": "d18ddd8b",
+      "fileHash": "bb749de3",
       "needsInterop": false
     },
     "@mui/material/Drawer": {
       "src": "../../node_modules/@mui/material/Drawer/index.mjs",
       "file": "@mui_material_Drawer.js",
-      "fileHash": "7cef88a9",
+      "fileHash": "f8a768ab",
+      "needsInterop": false
+    },
+    "@mui/material/IconButton": {
+      "src": "../../node_modules/@mui/material/IconButton/index.mjs",
+      "file": "@mui_material_IconButton.js",
+      "fileHash": "8c478ac9",
       "needsInterop": false
     },
     "@mui/material/Link": {
       "src": "../../node_modules/@mui/material/Link/index.mjs",
       "file": "@mui_material_Link.js",
-      "fileHash": "18350945",
+      "fileHash": "dec5f7d2",
       "needsInterop": false
     },
     "@mui/material/List": {
       "src": "../../node_modules/@mui/material/List/index.mjs",
       "file": "@mui_material_List.js",
-      "fileHash": "34e169c4",
+      "fileHash": "e549cab6",
       "needsInterop": false
     },
     "@mui/material/ListItem": {
       "src": "../../node_modules/@mui/material/ListItem/index.mjs",
       "file": "@mui_material_ListItem.js",
-      "fileHash": "55e35ce6",
+      "fileHash": "5ccf5876",
       "needsInterop": false
     },
     "@mui/material/ListItemButton": {
       "src": "../../node_modules/@mui/material/ListItemButton/index.mjs",
       "file": "@mui_material_ListItemButton.js",
-      "fileHash": "65ab0337",
+      "fileHash": "7263efaf",
       "needsInterop": false
     },
     "@mui/material/ListItemIcon": {
       "src": "../../node_modules/@mui/material/ListItemIcon/index.mjs",
       "file": "@mui_material_ListItemIcon.js",
-      "fileHash": "e6d18c62",
+      "fileHash": "a44b1960",
       "needsInterop": false
     },
     "@mui/material/ListItemText": {
       "src": "../../node_modules/@mui/material/ListItemText/index.mjs",
       "file": "@mui_material_ListItemText.js",
-      "fileHash": "6e76c203",
+      "fileHash": "92501acb",
       "needsInterop": false
     },
     "@mui/material/ListSubheader": {
       "src": "../../node_modules/@mui/material/ListSubheader/index.mjs",
       "file": "@mui_material_ListSubheader.js",
-      "fileHash": "961a000c",
+      "fileHash": "f088194b",
       "needsInterop": false
     },
     "@mui/material/Toolbar": {
       "src": "../../node_modules/@mui/material/Toolbar/index.mjs",
       "file": "@mui_material_Toolbar.js",
-      "fileHash": "743b6a0f",
+      "fileHash": "204e4886",
       "needsInterop": false
     },
     "@mui/material/Typography": {
       "src": "../../node_modules/@mui/material/Typography/index.mjs",
       "file": "@mui_material_Typography.js",
-      "fileHash": "6c283f3a",
+      "fileHash": "e5f80f00",
       "needsInterop": false
     },
     "react-dom/client": {
@@ -174,32 +216,36 @@
     }
   },
   "chunks": {
-    "DefaultPropsProvider-COhq23b0": {
-      "file": "DefaultPropsProvider-COhq23b0.js",
+    "ButtonBase-DNUVjiaz": {
+      "file": "ButtonBase-DNUVjiaz.js",
+      "isDynamicEntry": false
+    },
+    "DefaultPropsProvider-RvgOgqwQ": {
+      "file": "DefaultPropsProvider-RvgOgqwQ.js",
       "isDynamicEntry": false
     },
     "ListContext-CZkYTCK2": {
       "file": "ListContext-CZkYTCK2.js",
       "isDynamicEntry": false
     },
-    "ListItemButton-CHuLQ3GM": {
-      "file": "ListItemButton-CHuLQ3GM.js",
+    "ListItemButton-BJEgm41C": {
+      "file": "ListItemButton-BJEgm41C.js",
       "isDynamicEntry": false
     },
-    "Paper-tkRmyWRL": {
-      "file": "Paper-tkRmyWRL.js",
+    "Paper-Bd8JtwSb": {
+      "file": "Paper-Bd8JtwSb.js",
       "isDynamicEntry": false
     },
-    "Transition-NVlm4Lmf": {
-      "file": "Transition-NVlm4Lmf.js",
+    "Transition-C1_dBw_L": {
+      "file": "Transition-C1_dBw_L.js",
       "isDynamicEntry": false
     },
-    "Typography-mrYHGJt4": {
-      "file": "Typography-mrYHGJt4.js",
+    "Typography-CCUioWnS": {
+      "file": "Typography-CCUioWnS.js",
       "isDynamicEntry": false
     },
-    "capitalize-DWxe5OcV": {
-      "file": "capitalize-DWxe5OcV.js",
+    "capitalize-DhwZD9gR": {
+      "file": "capitalize-DhwZD9gR.js",
       "isDynamicEntry": false
     },
     "chainPropTypes-oQ6t6ebT": {
@@ -214,28 +260,28 @@
       "file": "createSimplePaletteValueFilter-BhADkSm9.js",
       "isDynamicEntry": false
     },
-    "createSvgIcon-DCiWdTOV": {
-      "file": "createSvgIcon-DCiWdTOV.js",
+    "createSvgIcon-OjtwnaJW": {
+      "file": "createSvgIcon-OjtwnaJW.js",
       "isDynamicEntry": false
     },
-    "elementTypeAcceptingRef-N0i3U38o": {
-      "file": "elementTypeAcceptingRef-N0i3U38o.js",
+    "elementTypeAcceptingRef-Bzb3XCqL": {
+      "file": "elementTypeAcceptingRef-Bzb3XCqL.js",
       "isDynamicEntry": false
     },
-    "generateUtilityClasses-f_oAAkFY": {
-      "file": "generateUtilityClasses-f_oAAkFY.js",
+    "generateUtilityClasses-DHBZT0Pt": {
+      "file": "generateUtilityClasses-DHBZT0Pt.js",
       "isDynamicEntry": false
     },
-    "identifier-DwjwUySa": {
-      "file": "identifier-DwjwUySa.js",
+    "identifier-DaQxGKKu": {
+      "file": "identifier-DaQxGKKu.js",
       "isDynamicEntry": false
     },
     "isFocusVisible-AAJ6xeny": {
       "file": "isFocusVisible-AAJ6xeny.js",
       "isDynamicEntry": false
     },
-    "memoTheme-iwpuTymu": {
-      "file": "memoTheme-iwpuTymu.js",
+    "memoTheme-CqV0oief": {
+      "file": "memoTheme-CqV0oief.js",
       "isDynamicEntry": false
     },
     "react-Ea1HnpA1": {
@@ -258,12 +304,12 @@
       "file": "useReducedMotion-1rDYsiu9.js",
       "isDynamicEntry": false
     },
-    "useSlot-ZNyQ5qRN": {
-      "file": "useSlot-ZNyQ5qRN.js",
+    "useSlot-Djneh5-e": {
+      "file": "useSlot-Djneh5-e.js",
       "isDynamicEntry": false
     },
-    "utils-CkF23LBf": {
-      "file": "utils-CkF23LBf.js",
+    "utils-BCVtNTPx": {
+      "file": "utils-BCVtNTPx.js",
       "isDynamicEntry": false
     }
   }
