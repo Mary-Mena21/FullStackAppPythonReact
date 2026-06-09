@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Home = () => {
+const Edit = () => {
     return (
         <div>
-            This is the Home page
+            This is the Edit page
         </div>
     );
 }
 
-export default Home;
-
+export default Edit;
