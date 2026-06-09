@@ -5,8 +5,10 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Collapse from '@mui/material/Collapse';
-import AddBoxIcon from '@mui/icons-material/AddBox';
 import DashboardIcon from '@mui/icons-material/Dashboard';
+import AddBoxIcon from '@mui/icons-material/AddBox';
+import EditDocumentIcon from '@mui/icons-material/EditDocument';
+import DeleteSweepIcon from '@mui/icons-material/DeleteSweep';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import StarBorder from '@mui/icons-material/StarBorder';
@@ -98,7 +100,7 @@ export default function Menu() {
           selected={path === `/Edit${id}`}
         >
           <ListItemIcon>
-            <AddBoxIcon />
+            <EditDocumentIcon />
           </ListItemIcon>
           <ListItemText primary="Edit club" />
         </ListItemButton>
@@ -108,7 +110,7 @@ export default function Menu() {
           selected={path === `/Delete${id}`}
         >
           <ListItemIcon>
-            <AddBoxIcon />
+            <DeleteSweepIcon />
           </ListItemIcon>
           <ListItemText primary="Delete club" />
         </ListItemButton>

@@ -3,13 +3,22 @@ import Drawer from '@mui/material/Drawer';
 import AppBar from '@mui/material/AppBar';
 import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import Menu from './Menu';
+import MiniMenu from './MiniMenu';
 import logo from '../../assets/logoFootball.png';
+import { useState } from 'react';
+import MenuIcon from '@mui/icons-material/Menu';
+import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+import IconButton from '@mui/material/IconButton';
 
 const drawerWidth = 240;
-
+const miniDrawerWidth = 80;
 export default function Navbar({ content }) {
+  const [open, setOpen] = useState(false);
+
+  const handleClick = () => {
+    setOpen(!open);
+  };
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -18,6 +27,17 @@ export default function Navbar({ content }) {
         sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
       >
         <Toolbar>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            onClick={handleClick}
+            edge="start"
+            sx={{
+              mr: 2
+            }}
+          >
+            {open ? <MenuOpenIcon /> : <MenuIcon />}
+          </IconButton>
           <img
             src={logo}
             alt="Logo"
@@ -28,16 +48,16 @@ export default function Navbar({ content }) {
       <Drawer
         variant="permanent"
         sx={{
-          width: drawerWidth,
+          width: open ? drawerWidth : miniDrawerWidth,
           flexShrink: 0,
           [`& .MuiDrawer-paper`]: {
-            width: drawerWidth,
+            width: open ? drawerWidth : miniDrawerWidth,
             boxSizing: 'border-box',
           },
         }}
       >
         <Toolbar />
-        <Menu />
+        {open ? <Menu /> : <MiniMenu />}
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar />
