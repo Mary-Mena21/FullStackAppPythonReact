@@ -1,37 +1,193 @@
 {
-  "hash": "4e7d7dd5",
+  "hash": "4df4b89d",
   "configHash": "523bae9e",
-  "lockfileHash": "873b9efc",
-  "browserHash": "28185536",
+  "lockfileHash": "1ea7e34a",
+  "browserHash": "b28ce61c",
   "optimized": {
+    "@mui/icons-material/Mail": {
+      "src": "../../node_modules/@mui/icons-material/Mail.mjs",
+      "file": "@mui_icons-material_Mail.js",
+      "fileHash": "5a5f368d",
+      "needsInterop": false
+    },
+    "@mui/icons-material/MoveToInbox": {
+      "src": "../../node_modules/@mui/icons-material/MoveToInbox.mjs",
+      "file": "@mui_icons-material_MoveToInbox.js",
+      "fileHash": "af633ecc",
+      "needsInterop": false
+    },
+    "@mui/material/AppBar": {
+      "src": "../../node_modules/@mui/material/AppBar/index.mjs",
+      "file": "@mui_material_AppBar.js",
+      "fileHash": "67eca131",
+      "needsInterop": false
+    },
+    "@mui/material/Box": {
+      "src": "../../node_modules/@mui/material/Box/index.mjs",
+      "file": "@mui_material_Box.js",
+      "fileHash": "771c4df7",
+      "needsInterop": false
+    },
+    "@mui/material/CssBaseline": {
+      "src": "../../node_modules/@mui/material/CssBaseline/index.mjs",
+      "file": "@mui_material_CssBaseline.js",
+      "fileHash": "4fd5b009",
+      "needsInterop": false
+    },
+    "@mui/material/Divider": {
+      "src": "../../node_modules/@mui/material/Divider/index.mjs",
+      "file": "@mui_material_Divider.js",
+      "fileHash": "6e578cf1",
+      "needsInterop": false
+    },
+    "@mui/material/Drawer": {
+      "src": "../../node_modules/@mui/material/Drawer/index.mjs",
+      "file": "@mui_material_Drawer.js",
+      "fileHash": "ccbe29cb",
+      "needsInterop": false
+    },
+    "@mui/material/List": {
+      "src": "../../node_modules/@mui/material/List/index.mjs",
+      "file": "@mui_material_List.js",
+      "fileHash": "059a5a39",
+      "needsInterop": false
+    },
+    "@mui/material/ListItem": {
+      "src": "../../node_modules/@mui/material/ListItem/index.mjs",
+      "file": "@mui_material_ListItem.js",
+      "fileHash": "bb00fb0c",
+      "needsInterop": false
+    },
+    "@mui/material/ListItemButton": {
+      "src": "../../node_modules/@mui/material/ListItemButton/index.mjs",
+      "file": "@mui_material_ListItemButton.js",
+      "fileHash": "50975040",
+      "needsInterop": false
+    },
+    "@mui/material/ListItemIcon": {
+      "src": "../../node_modules/@mui/material/ListItemIcon/index.mjs",
+      "file": "@mui_material_ListItemIcon.js",
+      "fileHash": "b211e842",
+      "needsInterop": false
+    },
+    "@mui/material/ListItemText": {
+      "src": "../../node_modules/@mui/material/ListItemText/index.mjs",
+      "file": "@mui_material_ListItemText.js",
+      "fileHash": "2db0cd42",
+      "needsInterop": false
+    },
+    "@mui/material/Toolbar": {
+      "src": "../../node_modules/@mui/material/Toolbar/index.mjs",
+      "file": "@mui_material_Toolbar.js",
+      "fileHash": "0378c877",
+      "needsInterop": false
+    },
+    "@mui/material/Typography": {
+      "src": "../../node_modules/@mui/material/Typography/index.mjs",
+      "file": "@mui_material_Typography.js",
+      "fileHash": "3bf4837b",
+      "needsInterop": false
+    },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "7f58c5cb",
+      "fileHash": "d5280ded",
       "needsInterop": true
     },
     "react-router": {
       "src": "../../node_modules/react-router/dist/development/index.mjs",
       "file": "react-router.js",
-      "fileHash": "36bd1723",
+      "fileHash": "2897745b",
       "needsInterop": false
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "371cbe90",
+      "fileHash": "fee62c69",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "aba7fbce",
+      "fileHash": "939d2d7f",
       "needsInterop": true
     }
   },
   "chunks": {
+    "DefaultPropsProvider-CC3qZuJh": {
+      "file": "DefaultPropsProvider-CC3qZuJh.js",
+      "isDynamicEntry": false
+    },
+    "ListContext-CZkYTCK2": {
+      "file": "ListContext-CZkYTCK2.js",
+      "isDynamicEntry": false
+    },
+    "ListItemButton-Biovmwf8": {
+      "file": "ListItemButton-Biovmwf8.js",
+      "isDynamicEntry": false
+    },
+    "Paper-5Pdyq6Rj": {
+      "file": "Paper-5Pdyq6Rj.js",
+      "isDynamicEntry": false
+    },
+    "Typography-CRhaPXEn": {
+      "file": "Typography-CRhaPXEn.js",
+      "isDynamicEntry": false
+    },
+    "capitalize-CZ7E9zx8": {
+      "file": "capitalize-CZ7E9zx8.js",
+      "isDynamicEntry": false
+    },
+    "chainPropTypes-oQ6t6ebT": {
+      "file": "chainPropTypes-oQ6t6ebT.js",
+      "isDynamicEntry": false
+    },
+    "composeClasses-CuzF1wSb": {
+      "file": "composeClasses-CuzF1wSb.js",
+      "isDynamicEntry": false
+    },
+    "createSimplePaletteValueFilter-BhADkSm9": {
+      "file": "createSimplePaletteValueFilter-BhADkSm9.js",
+      "isDynamicEntry": false
+    },
+    "createSvgIcon-uUYlMLy_": {
+      "file": "createSvgIcon-uUYlMLy_.js",
+      "isDynamicEntry": false
+    },
+    "generateUtilityClasses-BUtvJayk": {
+      "file": "generateUtilityClasses-BUtvJayk.js",
+      "isDynamicEntry": false
+    },
+    "identifier-BPUk3SFh": {
+      "file": "identifier-BPUk3SFh.js",
+      "isDynamicEntry": false
+    },
+    "memoTheme-BUL97PKI": {
+      "file": "memoTheme-BUL97PKI.js",
+      "isDynamicEntry": false
+    },
     "react-Ea1HnpA1": {
       "file": "react-Ea1HnpA1.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-BiNnG8uc": {
+      "file": "react-dom-BiNnG8uc.js",
+      "isDynamicEntry": false
+    },
+    "useForkRef-CT6qK8Fq": {
+      "file": "useForkRef-CT6qK8Fq.js",
+      "isDynamicEntry": false
+    },
+    "useReducedMotion-Cj_QAPkW": {
+      "file": "useReducedMotion-Cj_QAPkW.js",
+      "isDynamicEntry": false
+    },
+    "useSlot-CEJlA3yl": {
+      "file": "useSlot-CEJlA3yl.js",
+      "isDynamicEntry": false
+    },
+    "utils-CkF23LBf": {
+      "file": "utils-CkF23LBf.js",
       "isDynamicEntry": false
     }
   }
