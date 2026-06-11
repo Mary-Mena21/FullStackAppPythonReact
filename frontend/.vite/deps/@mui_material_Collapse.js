@@ -1,14 +1,14 @@
 import { r as __toESM, t as require_react } from "./react-Ea1HnpA1.js";
-import { D as require_prop_types, E as clsx, h as require_jsx_runtime, i as duration, l as generateUtilityClass } from "./identifier-DaQxGKKu.js";
+import { D as require_prop_types, E as clsx, g as require_jsx_runtime, i as duration, l as generateUtilityClass } from "./identifier-DwjwUySa.js";
 import { t as composeClasses } from "./composeClasses-CuzF1wSb.js";
-import { a as useTheme, r as styled, t as useDefaultProps } from "./DefaultPropsProvider-RvgOgqwQ.js";
-import { t as generateUtilityClasses } from "./generateUtilityClasses-DHBZT0Pt.js";
+import { a as useTheme, r as styled, t as useDefaultProps } from "./DefaultPropsProvider-COhq23b0.js";
+import { t as generateUtilityClasses } from "./generateUtilityClasses-f_oAAkFY.js";
 import { r as useForkRef_default, t as useReducedMotion } from "./useReducedMotion-1rDYsiu9.js";
-import { t as memoTheme } from "./memoTheme-CqV0oief.js";
+import { t as memoTheme } from "./memoTheme-iwpuTymu.js";
 import { o as normalizedTransitionCallback, r as getTransitionProps } from "./utils-BCVtNTPx.js";
-import { t as useSlot } from "./useSlot-Djneh5-e.js";
-import { t as elementTypeAcceptingRef_default } from "./elementTypeAcceptingRef-Bzb3XCqL.js";
-import { t as Transition } from "./Transition-C1_dBw_L.js";
+import { t as elementTypeAcceptingRef_default } from "./elementTypeAcceptingRef-N0i3U38o.js";
+import { t as useSlot } from "./useSlot-ZNyQ5qRN.js";
+import { t as Transition } from "./Transition-ClMc6yHn.js";
 //#region node_modules/@mui/material/Collapse/collapseClasses.mjs
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
 var import_prop_types = /* @__PURE__ */ __toESM(require_prop_types(), 1);

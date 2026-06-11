@@ -1,5 +1,6 @@
 # Virtual environment
 venv/
+venv_wsl/
 env/
 ENV/
 
@@ -20,7 +21,9 @@ local_settings.py
 .env
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 .idea/
 *.swp
 *.swo

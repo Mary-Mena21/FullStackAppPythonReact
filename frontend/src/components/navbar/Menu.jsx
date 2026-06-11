@@ -110,7 +110,7 @@ export default function Menu() {
           selected={path === `/Delete${id}`}
         >
           <ListItemIcon>
-            <DeleteSweepIcon />
+            <DeleteSweepIcon fontSize="large" />
           </ListItemIcon>
           <ListItemText primary="Delete club" />
         </ListItemButton>
