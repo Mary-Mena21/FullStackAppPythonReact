@@ -5,6 +5,15 @@ python -m venv venv
 
 # Activate the virtual environment
 source venv/bin/activate        venv\scripts\activate
+venv/scripts/activate
+
+#### deactivate Bash shell
+python -m venv venv
+source venv/Scripts/activate
+python manage.py runserver 8080
+
+# Install pip
+python -m pip install --upgrade pip
 
 # Install Django
 python -m pip install django
@@ -63,3 +72,30 @@ npm install react-toastify
 
 ## install Prttier
 npm install --save-dev prettier
+
+## makemigrations
+python manage.py makemigrations
+
+## migrate
+python manage.py migrate
+
+## runserver
+python manage.py runserver
+
+## create superuser
+python manage.py createsuperuser
+
+## djangorestframework
+pip install djangorestframework
+
+## djangorestframework_simplejwt
+pip install djangorestframework_simplejwt
+
+## install django-cors-headers
+pip install django-cors-headers
+
+## install django-filter
+pip install django-filter
+
+## serializer
+pip install drf-yasg

@@ -1,6 +1,6 @@
 "use client";
-import { h as require_jsx_runtime } from "./identifier-DaQxGKKu.js";
-import { t as createSvgIcon } from "./createSvgIcon-OjtwnaJW.js";
+import { g as require_jsx_runtime } from "./identifier-DwjwUySa.js";
+import { t as createSvgIcon } from "./createSvgIcon-BFUGD2tb.js";
 var Send_default = createSvgIcon(/*#__PURE__*/ (0, require_jsx_runtime().jsx)("path", { d: "M2.01 21 23 12 2.01 3 2 10l15 2-15 2z" }), "Send");
 //#endregion
 export { Send_default as default };
